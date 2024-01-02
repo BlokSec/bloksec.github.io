@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e6f2;
+      }
+
+      .cls-2 {
+        fill: #5e37dc;
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-20);
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-19);
+      }
+    </style>
+    <filter id="drop-shadow-19" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#150b2c" flood-opacity=".18"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-20" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#150b2c" flood-opacity=".18"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-4">
+    <path class="cls-2" d="m322.73,322.73h-47.46v60h74.99c17.94,0,32.47-14.54,32.47-32.47v-74.99h-60v47.46Z"/>
+    <path class="cls-2" d="m168.55,322.73v-154.19h154.19v46.72h60v-74.25c0-17.94-14.54-32.47-32.47-32.47h-209.24c-17.94,0-32.47,14.54-32.47,32.47v209.24c0,17.94,14.54,32.47,32.47,32.47h74.25v-60h-46.72Z"/>
+  </g>
+  <g class="cls-3">
+    <path class="cls-1" d="m322.73,275.27v-60h-74.99c-17.94,0-32.47,14.54-32.47,32.47v74.99h60v-47.46h47.46Z"/>
+    <path class="cls-1" d="m456.98,215.27h-74.25v60h46.72v154.19h-154.19v-46.72h-60v74.25c0,17.94,14.54,32.47,32.47,32.47h209.24c17.94,0,32.47-14.54,32.47-32.47v-209.24c0-17.94-14.54-32.47-32.47-32.47Z"/>
+  </g>
+</svg>
