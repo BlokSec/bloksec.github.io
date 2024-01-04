@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbloksec_docs=self.webpackChunkbloksec_docs||[]).push([[121],{8070:s=>{s.exports=JSON.parse('[{"label":"Integration","permalink":"/docs/tags/integration","count":1},{"label":"Microsoft","permalink":"/docs/tags/microsoft","count":1},{"label":"WS-FED","permalink":"/docs/tags/ws-fed","count":1}]')}}]);
